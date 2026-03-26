@@ -1,16 +1,43 @@
-# React + Vite
+#  Pokémon Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Pokémon viewer built with **React** and **Tailwind CSS**. This project demonstrates the use of **custom hooks** for state management and data handling, along with intuitive navigation controls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Tech Stack
 
-## React Compiler
+-  React  
+-  Tailwind CSS  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tools Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  VS Code  
+-  Vite  
+
+---
+
+## Features
+
+-  Navigate through Pokémon using **Previous** and **Next** buttons  
+-  Select a Pokémon directly from a **dropdown menu**  
+-  Uses **custom hooks** to manage and process data  
+-  Data is sourced locally from a `data.js` file  
+
+---
+
+##  How It Works
+
+- Pokémon data is stored in a local file: `data.js`  
+- A **custom hook** processes and manages this data  
+- Navigation controls (buttons and dropdown) update the currently displayed Pokémon  
+- The UI reacts dynamically based on the selected Pokémon  
+
+---
+
+##  Getting Started
+
+1. Clone the repository  
+   ```bash
+   git clone <your-repo-url>
