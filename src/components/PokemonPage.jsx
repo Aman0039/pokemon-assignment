@@ -47,7 +47,7 @@ const PokemonPage = () => {
          <select
         value={index}
         onChange={(e) => selectPokemon(Number(e.target.value))}
-        className="bg-white/60 rounded-md p-8 pb-1 pt-1 border border-lime-900/60 text-black"
+        className="bg-white/60 rounded-md p-8 pb-1 pt-1 border border-lime-900/60 text-black text-sm"
       >
         {pokemons.map((p, i) => (
           <option key={p.name} value={i}>
